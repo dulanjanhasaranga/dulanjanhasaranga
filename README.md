@@ -13,7 +13,7 @@
 
 - 💬 Ask me about **Java, React, Web Development, UI/UX Design, MySQL, and Software Engineering**
 
-- 📫 How to reach me **dulanjanhasaranga2004@gmial.com**
+- 📫 How to reach me **dulanjan.connect@gmial.com**
 
 - ⚡ Fun fact **I enjoy turning ideas into real-world software solutions.**
 
