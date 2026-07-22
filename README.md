@@ -1,8 +1,9 @@
+```markdown
 <h1 align="center">Hi 👋, I'm Dulanjan Hasaranga</h1>
-<h3 align="center">🎓 Information Systems Engineering Undergraduate | 💻 Full-Stack Developer | 🚀 Passionate Software Engineer</h3>
+<h3 align="center">Information Systems Engineering Undergraduate | Passionate About Building Innovative Software Solutions</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3500&pause=1000&color=00C4FF&center=true&vCenter=true&width=750&lines=Welcome+to+my+GitHub+Profile!;Information+Systems+Engineering+Undergraduate;Full-Stack+Web+Developer;Java+%7C+Spring+Boot+%7C+React+Developer;Always+Learning+New+Technologies" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3500&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Information+Systems+Engineering+Undergraduate;Java+%7C+Spring+Boot+%7C+React+Learner;Software+Engineering+Enthusiast;Always+Learning+Something+New" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -11,17 +12,19 @@
 
 ---
 
-# 👨‍💻 About Me
+## 👨‍💻 About Me
 
-🎓 I'm an **Undergraduate** at the **Sri Lanka Institute of Information Technology (SLIIT)**, specializing in **Information Systems Engineering**.
+🎓 Undergraduate at **Sri Lanka Institute of Information Technology (SLIIT)**
 
-💡 I enjoy building modern, scalable, and user-friendly software solutions while continuously expanding my knowledge of new technologies.
+📚 Specializing in **Information Systems Engineering**
 
-🔭 **Currently Working On**
+💡 Passionate about software engineering, web technologies, and solving real-world problems through technology.
+
+🔭 **Currently working on**
 - 🏥 Healthcare Appointment Management System
 - 📚 TuitionConnect Platform
 
-🌱 **Currently Learning**
+🌱 **Currently learning**
 - Java
 - Spring Boot
 - React
@@ -30,101 +33,71 @@
 - Software Engineering
 - UI/UX Design
 
-👯 **Looking to Collaborate On**
-- Open Source Projects
-- Full-Stack Web Applications
-- Java & Spring Boot Projects
-- React Applications
-
-🤝 **Looking for Help With**
+🤝 **Looking for help with**
 - System Design
 - Backend Architecture
-- Cloud Technologies
 - Open Source Contributions
 
-💬 **Ask Me About**
+👯 **Looking to collaborate on**
+- Open Source Projects
+- Web Development
+- Software Engineering Projects
+
+💬 **Ask me about**
 - Java
-- Spring Boot
 - React
 - MySQL
-- Web Development
-- Software Engineering
 - UI/UX Design
+- Software Engineering
 
 📫 **Email**
-- **dulanjan.connect@gmail.com**
+
+**dulanjan.connect@gmail.com**
 
 ⚡ **Fun Fact**
 
-> I enjoy turning ideas into real-world software solutions that solve practical problems.
+> I enjoy turning ideas into real-world software solutions.
 
 ---
 
-# 🌐 Connect With Me
+## 🌐 Connect With Me
 
 <p align="center">
+<a href="https://linkedin.com/in/dulanjanhasaranga" target="_blank">
+<img src="https://skillicons.dev/icons?i=linkedin" />
+</a>
 
 <a href="mailto:dulanjan.connect@gmail.com">
 <img src="https://skillicons.dev/icons?i=gmail" />
 </a>
 
-<!-- Replace with your actual LinkedIn profile -->
-<a href="https://linkedin.com/in/your-linkedin">
-<img src="https://skillicons.dev/icons?i=linkedin" />
-</a>
-
 <a href="https://github.com/dulanjanhasaranga">
 <img src="https://skillicons.dev/icons?i=github" />
 </a>
+</p>
+
+---
+
+## 💻 Languages & Tools
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=java,python,javascript,html,css,react,spring,bootstrap,tailwind,mysql,figma,git,github,vscode,linux,arduino" />
 
 </p>
 
 ---
 
-# 💻 Tech Stack
-
-### 👨‍💻 Programming Languages
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=java,python,javascript,html,css" />
-</p>
-
-### ⚙️ Backend Development
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=spring,nodejs" />
-</p>
-
-### 🎨 Frontend Development
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=react,bootstrap,tailwind" />
-</p>
-
-### 🗄️ Database
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=mysql" />
-</p>
-
-### 🛠️ Tools & Technologies
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,linux,arduino" />
-</p>
-
----
-
-# 🚀 Featured Projects
+## 🚀 Current Projects
 
 | Project | Description |
-|----------|-------------|
-| 🏥 **Healthcare Appointment Management System** | A full-stack web application for managing patient appointments, doctors, billing, and healthcare services. |
-| 📚 **TuitionConnect Platform** | A collaborative platform connecting students and tutors with scheduling, communication, and learning features. |
+|---------|-------------|
+| 🏥 Healthcare Appointment Management System | A web-based healthcare appointment management platform for efficient patient appointment scheduling and administration. |
+| 📚 TuitionConnect Platform | A platform designed to connect students and tutors while simplifying tuition management and communication. |
 
 ---
 
-# 📊 GitHub Statistics
+## 📊 GitHub Statistics
 
 <p align="center">
 
@@ -134,6 +107,10 @@
 
 </p>
 
+---
+
+## 🔥 GitHub Streak
+
 <p align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=dulanjanhasaranga&theme=tokyonight&hide_border=true"/>
@@ -142,17 +119,17 @@
 
 ---
 
-# 🏆 GitHub Trophies
+## 🏆 GitHub Trophies
 
 <p align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=dulanjanhasaranga&theme=tokyonight&no-frame=true&row=1&column=7"/>
+<img src="https://github-profile-trophy.vercel.app/?username=dulanjanhasaranga&theme=tokyonight&no-frame=true&row=1&column=6"/>
 
 </p>
 
 ---
 
-# 📈 Contribution Graph
+## 📈 Contribution Graph
 
 <p align="center">
 
@@ -162,34 +139,22 @@
 
 ---
 
-# 🎯 Goals for 2026
+## 🎯 Goals
 
-- 🚀 Become an Expert in Spring Boot Development
-- 💻 Build Enterprise-Level Full-Stack Applications
-- 🌍 Contribute to Open Source Projects
-- ☁️ Learn Cloud Computing (AWS)
-- 🐳 Master Docker & Kubernetes
-- 🧠 Improve System Design & Software Architecture Skills
-- 📱 Explore Mobile Application Development
-- 🤖 Learn AI & Machine Learning Fundamentals
-
----
-
-# 📚 Currently Exploring
-
-- Enterprise Software Development
-- RESTful API Design
-- Microservices Architecture
-- Software Architecture Patterns
-- Cloud Technologies
-- UI/UX Best Practices
+- 🚀 Improve my Java and Spring Boot skills
+- 💻 Build scalable web applications
+- 🌱 Contribute to Open Source Projects
+- ☁️ Learn Cloud Computing technologies
+- 📚 Strengthen System Design and Software Architecture knowledge
+- 🤝 Collaborate with developers around the world
 
 ---
 
 <div align="center">
 
-### 💙 Thanks for visiting my profile!
+### 💡 *"Learning never stops. Every project is an opportunity to grow."*
 
-*"Code with Passion • Learn Continuously • Build for Impact"* 🚀
+⭐ Thanks for visiting my profile!
 
 </div>
+```
