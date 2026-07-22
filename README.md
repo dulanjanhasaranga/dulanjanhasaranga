@@ -1,150 +1,129 @@
-```markdown
-<h1 align="center">Hi 👋, I'm Dulanjan Hasaranga</h1>
+# <div align="center">Hi 👋, I'm Dulanjan Hasaranga</div>
 
-<h3 align="center">
-Information Systems Engineering Undergraduate at Sri Lanka Institute of Information Technology (SLIIT)
-</h3>
+### <div align="center">Information Systems Engineering Undergraduate at Sri Lanka Institute of Information Technology (SLIIT)</div>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3500&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Information+Systems+Engineering+Student;Java+%7C+Spring+Boot+%7C+React;Passionate+Software+Engineering+Learner;Building+Projects+and+Learning+Every+Day" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3500&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Information+Systems+Engineering+Student;Java+%7C+Spring+Boot+%7C+React;Passionate+Software+Engineering+Learner;Always+Learning+New+Technologies;Building+Real-World+Software+Solutions" alt="Typing SVG"/>
 </p>
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=dulanjanhasaranga&label=Profile%20Views&color=0e75b6&style=for-the-badge"/>
-
-<img src="https://img.shields.io/github/followers/dulanjanhasaranga?style=for-the-badge&logo=github"/>
-
-<img src="https://img.shields.io/github/stars/dulanjanhasaranga?style=for-the-badge"/>
+  <img src="https://komarev.com/ghpvc/?username=dulanjanhasaranga&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/dulanjanhasaranga?label=Followers&style=for-the-badge&logo=github" alt="Followers"/>
 </p>
 
 ---
 
 # 👨‍💻 About Me
 
-🎓 Information Systems Engineering Undergraduate at **Sri Lanka Institute of Information Technology (SLIIT)**
+🎓 Undergraduate in **Information Systems Engineering** at **Sri Lanka Institute of Information Technology (SLIIT)**
 
-💻 Passionate about software engineering, backend development, and building practical solutions that solve real-world problems.
+💡 Passionate about software engineering and building practical solutions that solve real-world problems.
 
 🔭 **Currently Working On**
 
-- 🏥 Healthcare Appointment Management System
-- 📚 TuitionConnect Platform
+* 🏥 Healthcare Appointment Management System
+* 📚 TuitionConnect Platform
+* 🏨 Hotel Reservation System
 
 🌱 **Currently Learning**
 
-- Java
-- Spring Boot
-- React
-- Database Design
-- Cloud Computing
-- UI/UX Design
-- Software Architecture
+* Java
+* Spring Boot
+* React
+* Database Design
+* Cloud Computing
+* Software Architecture
+* UI/UX Design
 
-🤝 **Looking for Help With**
+🤝 **Looking for**
 
-- Backend Architecture
-- System Design
-- Open Source Contributions
+* Open Source Contributions
+* System Design Knowledge
+* Backend Architecture Best Practices
 
-👯 **Open to Collaborate On**
+👯 **Interested In Collaborating On**
 
-- Java Projects
-- Spring Boot Applications
-- React Projects
-- Software Engineering Projects
+* Java Projects
+* Spring Boot Applications
+* Web Development
+* Software Engineering Projects
 
 💬 **Ask Me About**
 
-- Java
-- Spring Boot
-- React
-- MySQL
-- UI/UX Design
-- Software Engineering
+* Java
+* Spring Boot
+* React
+* MySQL
+* Software Engineering
+* UI/UX Design
 
 📫 **Email**
 
-**dulanjan.connect@gmail.com**
+**[dulanjan.connect@gmail.com](mailto:dulanjan.connect@gmail.com)**
 
 ---
 
 # 🌐 Connect With Me
 
 <p align="center">
-
-<a href="https://linkedin.com/in/dulanjanhasaranga">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
+<a href="https://www.linkedin.com/in/dulanjan-hasaranga" target="_blank">
+<img src="https://skillicons.dev/icons?i=linkedin" height="48"/>
 </a>
-
+&nbsp;&nbsp;
 <a href="mailto:dulanjan.connect@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail"/>
+<img src="https://skillicons.dev/icons?i=gmail" height="48"/>
 </a>
-
+&nbsp;&nbsp;
 <a href="https://github.com/dulanjanhasaranga">
-<img src="https://skillicons.dev/icons?i=github"/>
+<img src="https://skillicons.dev/icons?i=github" height="48"/>
 </a>
-
 </p>
 
 ---
 
-# 💻 Languages
+# 💻 Tech Stack
+
+### Languages
 
 <p align="center">
-
 <img src="https://skillicons.dev/icons?i=java,python,javascript,html,css"/>
-
 </p>
 
----
-
-# ⚙️ Frameworks & Libraries
+### Frameworks
 
 <p align="center">
-
 <img src="https://skillicons.dev/icons?i=react,spring,bootstrap,tailwind"/>
-
 </p>
 
----
-
-# 🗄️ Databases
+### Database
 
 <p align="center">
-
 <img src="https://skillicons.dev/icons?i=mysql"/>
-
 </p>
 
----
-
-# 🛠️ Tools
+### Tools
 
 <p align="center">
-
 <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,linux,arduino"/>
-
 </p>
 
 ---
 
 # 🚀 Featured Projects
 
-| Project | Description |
-|----------|-------------|
-| 🏥 Healthcare Appointment Management System | A healthcare platform for appointment scheduling, patient management, and administration. |
-| 📚 TuitionConnect Platform | A platform that connects students with tutors and simplifies tuition management. |
+| Project                                         | Description                                                                                         |
+| ----------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 🏥 **Healthcare Appointment Management System** | A web-based healthcare solution for appointment scheduling, patient management, and administration. |
+| 📚 **TuitionConnect Platform**                  | A platform connecting students and tutors while simplifying communication and tuition management.   |
+| 🏨 **Hotel Reservation System**                 | A hotel booking and reservation management system with room availability and booking features.      |
 
 ---
 
 # 📊 GitHub Statistics
 
 <p align="center">
-
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=dulanjanhasaranga&show_icons=true&theme=tokyonight&hide_border=true"/>
-
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dulanjanhasaranga&layout=compact&theme=tokyonight&hide_border=true"/>
-
 </p>
 
 ---
@@ -152,9 +131,7 @@ Information Systems Engineering Undergraduate at Sri Lanka Institute of Informat
 # 🔥 GitHub Streak
 
 <p align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dulanjanhasaranga&theme=tokyonight&hide_border=true"/>
-
+<img src="https://github-readme-streak-stats.herokuapp.com?user=dulanjanhasaranga&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
@@ -162,9 +139,7 @@ Information Systems Engineering Undergraduate at Sri Lanka Institute of Informat
 # 🏆 GitHub Trophies
 
 <p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=dulanjanhasaranga&theme=tokyonight&no-frame=true&margin-w=15"/>
-
+<img src="https://github-profile-trophy.vercel.app/?username=dulanjanhasaranga&theme=tokyonight&no-frame=true&margin-w=10"/>
 </p>
 
 ---
@@ -172,31 +147,32 @@ Information Systems Engineering Undergraduate at Sri Lanka Institute of Informat
 # 📈 Contribution Graph
 
 <p align="center">
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=dulanjanhasaranga&theme=tokyo-night&hide_border=true"/>
-
 </p>
 
 ---
 
-# 🎯 Goals for 2026
+# 🎯 Goals
 
-- 🚀 Become proficient in Java & Spring Boot
-- 🌱 Explore Cloud Computing technologies
-- 📚 Improve Software Architecture and System Design skills
-- 🤝 Contribute to Open Source Projects
-- 💻 Build high-quality software solutions
-- 📖 Continue learning modern technologies
-
----
-
-# 💡 Quote
-
-> *"Learning never stops. Every project is an opportunity to grow."*
+* 🚀 Become proficient in Java & Spring Boot
+* 🌐 Build high-quality web applications
+* ☁️ Learn Cloud Computing
+* 🤝 Contribute to Open Source
+* 📚 Strengthen Software Architecture & System Design
+* 💡 Keep learning and improving every day
 
 ---
 
-<p align="center">
-⭐ Thank you for visiting my profile! ⭐
-</p>
-```
+# 💭 Favorite Quote
+
+> **"Learning never stops. Every project is an opportunity to grow."**
+
+---
+
+<div align="center">
+
+### ⭐ Thanks for visiting my profile!
+
+*"Code with passion. Learn with purpose. Build for impact."*
+
+</div>
