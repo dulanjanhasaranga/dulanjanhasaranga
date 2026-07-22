@@ -1,30 +1,175 @@
 <h1 align="center">Hi 👋, I'm Dulanjan Hasaranga</h1>
-<h3 align="center">Learning, Building, and Growing One Project at a Time</h3>
+<h3 align="center">🚀 Learning, Building, and Growing One Project at a Time</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dulanjanhasaranga&label=Profile%20views&color=0e75b6&style=flat" alt="dulanjanhasaranga" /> </p>
-
-- 🔭 I’m currently working on **Healthcare Appointment Management System and TuitionConnect Platform**
-
-- 🤝 I’m looking for help with **System Design, Backend Architecture, and Open Source Contributions**
-
-- 🌱 I’m currently learning **Java, Spring Boot, React, Database Design, Cloud Computing, Software Engineering, and UI/UX Design**
-
-- 👯 I’m looking to collaborate on **Open Source Projects, Web Development, and Full-Stack Applications**
-
-- 💬 Ask me about **Java, React, Web Development, UI/UX Design, MySQL, and Software Engineering**
-
-- 📫 How to reach me **dulanjan.connect@gmial.com**
-
-- ⚡ Fun fact **I enjoy turning ideas into real-world software solutions.**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/dulanjanhasaranga" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dulanjanhasaranga" height="30" width="40" /></a>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=25&duration=3500&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Software+Engineering+Undergraduate;Full-Stack+Developer;Java+%7C+Spring+Boot+%7C+React;Always+Learning+New+Technologies;Turning+Ideas+Into+Real-World+Software" alt="Typing SVG" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=dulanjanhasaranga&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/dulanjanhasaranga?label=Followers&style=for-the-badge&color=0e75b6"/>
+  <img src="https://img.shields.io/github/stars/dulanjanhasaranga?affiliations=OWNER&style=for-the-badge&color=F9A826"/>
+</p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dulanjanhasaranga&show_icons=true&locale=en" alt="dulanjanhasaranga" /></p>
+---
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dulanjanhasaranga&" alt="dulanjanhasaranga" /></p>
+# 💫 About Me
+
+🎓 **Software Engineering Undergraduate**
+
+💻 Passionate about building scalable, user-friendly, and impactful software solutions.
+
+🌱 **Currently Learning**
+- Java
+- Spring Boot
+- React
+- Database Design
+- Cloud Computing
+- Software Engineering
+- UI/UX Design
+
+🔭 **Currently Working On**
+- 🏥 Healthcare Appointment Management System
+- 📚 TuitionConnect Platform
+
+🤝 **Looking to Collaborate On**
+- Open Source Projects
+- Full-Stack Web Applications
+- Java & Spring Boot Projects
+
+💬 **Ask Me About**
+- Java
+- Spring Boot
+- React
+- MySQL
+- UI/UX Design
+- Software Engineering
+
+📫 **Reach Me At**
+
+**📧 dulanjan.connect@gmail.com**
+
+⚡ **Fun Fact**
+
+> *I enjoy turning ideas into real-world software solutions.*
+
+---
+
+# 🌐 Connect With Me
+
+<p align="center">
+
+<a href="mailto:dulanjan.connect@gmail.com">
+<img src="https://skillicons.dev/icons?i=gmail" height="45"/>
+</a>
+
+<a href="https://github.com/dulanjanhasaranga">
+<img src="https://skillicons.dev/icons?i=github" height="45"/>
+</a>
+
+<!-- Replace with your LinkedIn URL -->
+<a href="https://linkedin.com/in/dulanjanhasaranga">
+<img src="https://skillicons.dev/icons?i=linkedin" height="45"/>
+</a>
+
+</p>
+
+---
+
+# 💻 Tech Stack
+
+### 👨‍💻 Languages
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=java,python,javascript,html,css" />
+</p>
+
+### 🎨 Frontend
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=react,bootstrap,tailwind" />
+</p>
+
+### ⚙️ Backend
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=spring,nodejs" />
+</p>
+
+### 🗄️ Database
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=mysql" />
+</p>
+
+### 🛠️ Tools & Technologies
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,linux,arduino" />
+</p>
+
+---
+
+# 🚀 Featured Projects
+
+| Project | Description |
+|----------|-------------|
+| 🏥 **Healthcare Appointment Management System** | A complete healthcare platform for appointment scheduling, patient management, and administration. |
+| 📚 **TuitionConnect Platform** | A collaborative platform connecting students and tutors for learning, communication, and academic support. |
+
+---
+
+# 📊 GitHub Stats
+
+<p align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=dulanjanhasaranga&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dulanjanhasaranga&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+# 🔥 GitHub Streak
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com?user=dulanjanhasaranga&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+# 🏆 GitHub Trophies
+
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=dulanjanhasaranga&theme=tokyonight&no-frame=true&row=1&column=7"/>
+</p>
+
+---
+
+# 📈 Contribution Graph
+
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dulanjanhasaranga&theme=tokyo-night&hide_border=true"/>
+</p>
+
+---
+
+# 🎯 2026 Goals
+
+- 🚀 Master Spring Boot & Microservices
+- 💼 Build Enterprise-Level Full-Stack Applications
+- 🌍 Contribute to Open Source Projects
+- ☁️ Learn Cloud Computing (AWS)
+- 🐳 Learn Docker & Kubernetes
+- 📚 Strengthen System Design Skills
+- 🤖 Explore AI & Machine Learning
+- 📝 Continuously Improve Problem-Solving Skills
+
+---
+
+# 💡 Quote
+
+<div align="center">
+
+### *"Code with Passion. Learn with Curiosity. Build with Purpose."* 🚀
+
+</div>
