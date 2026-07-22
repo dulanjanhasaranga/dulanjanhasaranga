@@ -1,14 +1,11 @@
-# <div align="center">Hi 👋, I'm Dulanjan Hasaranga</div>
+<h1 align="center">Hi 👋, I'm Dulanjan Hasaranga</h1>
 
-### <div align="center">Information Systems Engineering Undergraduate at Sri Lanka Institute of Information Technology (SLIIT)</div>
+<h3 align="center">
+Information Systems Engineering Undergraduate at Sri Lanka Institute of Information Technology (SLIIT)
+</h3>
 
 <p align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3500&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Information+Systems+Engineering+Student;Java+%7C+Spring+Boot+%7C+React;Passionate+Software+Engineering+Learner;Always+Learning+New+Technologies;Building+Real-World+Software+Solutions" alt="Typing SVG"/>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=dulanjanhasaranga&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/dulanjanhasaranga?label=Followers&style=for-the-badge&logo=github" alt="Followers"/>
 </p>
 
 ---
@@ -38,7 +35,7 @@
 🤝 **Looking for**
 
 * Open Source Contributions
-* System Design Knowledge
+* System Design
 * Backend Architecture Best Practices
 
 👯 **Interested In Collaborating On**
@@ -57,25 +54,23 @@
 * Software Engineering
 * UI/UX Design
 
-📫 **Email**
-
-**[dulanjan.connect@gmail.com](mailto:dulanjan.connect@gmail.com)**
+📫 **Email:** **[dulanjan.connect@gmail.com](mailto:dulanjan.connect@gmail.com)**
 
 ---
 
 # 🌐 Connect With Me
 
 <p align="center">
-<a href="https://www.linkedin.com/in/dulanjan-hasaranga" target="_blank">
-<img src="https://skillicons.dev/icons?i=linkedin" height="48"/>
+<a href="https://www.linkedin.com/in/dulanjan-hasaranga">
+<img src="https://skillicons.dev/icons?i=linkedin" height="45"/>
 </a>
 &nbsp;&nbsp;
 <a href="mailto:dulanjan.connect@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail" height="48"/>
+<img src="https://skillicons.dev/icons?i=gmail" height="45"/>
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/dulanjanhasaranga">
-<img src="https://skillicons.dev/icons?i=github" height="48"/>
+<img src="https://skillicons.dev/icons?i=github" height="45"/>
 </a>
 </p>
 
@@ -111,11 +106,11 @@
 
 # 🚀 Featured Projects
 
-| Project                                         | Description                                                                                         |
-| ----------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| 🏥 **Healthcare Appointment Management System** | A web-based healthcare solution for appointment scheduling, patient management, and administration. |
-| 📚 **TuitionConnect Platform**                  | A platform connecting students and tutors while simplifying communication and tuition management.   |
-| 🏨 **Hotel Reservation System**                 | A hotel booking and reservation management system with room availability and booking features.      |
+| Project                                         | Description                                                                      |
+| ----------------------------------------------- | -------------------------------------------------------------------------------- |
+| 🏥 **Healthcare Appointment Management System** | Healthcare platform for appointment scheduling and patient management.           |
+| 📚 **TuitionConnect Platform**                  | Platform connecting students and tutors for better learning and communication.   |
+| 🏨 **Hotel Reservation System**                 | Hotel booking and reservation management system with room availability features. |
 
 ---
 
@@ -131,7 +126,7 @@
 # 🔥 GitHub Streak
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com?user=dulanjanhasaranga&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=dulanjanhasaranga&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
@@ -155,21 +150,24 @@
 # 🎯 Goals
 
 * 🚀 Become proficient in Java & Spring Boot
-* 🌐 Build high-quality web applications
+* 🌐 Build scalable web applications
 * ☁️ Learn Cloud Computing
 * 🤝 Contribute to Open Source
-* 📚 Strengthen Software Architecture & System Design
-* 💡 Keep learning and improving every day
+* 📚 Improve Software Architecture & System Design
 
 ---
 
-# 💭 Favorite Quote
+# 💭 Quote
 
 > **"Learning never stops. Every project is an opportunity to grow."**
 
 ---
 
 <div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=dulanjanhasaranga&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+
+<img src="https://img.shields.io/github/followers/dulanjanhasaranga?label=Followers&style=for-the-badge&logo=github" />
 
 ### ⭐ Thanks for visiting my profile!
 
