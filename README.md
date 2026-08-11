@@ -1,56 +1,131 @@
 # Dulanjan Hasaranga
-**Information Systems Engineering Undergraduate | Sri Lanka Institute of Information Technology (SLIIT)**
+
+**Information Systems Engineering Undergraduate | Full-Stack Developer | Business Analyst**
 
 [LinkedIn](https://www.linkedin.com/in/dulanjan-hasaranga) | [Email](mailto:dulanjan.connect@gmail.com) | [GitHub Portfolio](https://github.com/dulanjanhasaranga)
 
----
+I am an Information Systems Engineering undergraduate at the Sri Lanka Institute of Information Technology (SLIIT), interested in software engineering, systems analysis, business analysis, and developing practical technology solutions for real-world problems.
 
-## Professional Summary
-
-I am an Information Systems Engineering undergraduate with a strong focus on backend development, system architecture, and crafting efficient software solutions. I am driven by a practical approach to problem-solving, specializing in Java-based enterprise applications and full-stack development. My objective is to bridge complex system requirements with scalable, maintainable, and clean code.
-
-**Current Objectives:**
-* Architecting and developing enterprise-level applications using Java and Spring Boot.
-* Expanding expertise in Cloud Computing, System Design, and Database Optimization.
-* Seeking opportunities for open-source contributions and collaborative software engineering roles.
-
----
-
-## Technical Proficiencies
-
-* **Programming Languages:** Java, Python, JavaScript, HTML, CSS
-* **Frameworks & Libraries:** Spring Boot, React, Bootstrap, Tailwind CSS
-* **Databases:** MySQL
-* **Tools & Infrastructure:** Git, Version Control (GitHub), Linux, Figma, Arduino
-
----
-
-## Featured Projects
-
-| Project Name | Description | Technologies / Focus |
-| :--- | :--- | :--- |
-| **Healthcare Appointment System** | A comprehensive platform developed to streamline appointment scheduling, manage patient records, and optimize workflows for healthcare facilities. | Java, Backend Architecture, System Design |
-| **TuitionConnect Platform** | An educational web application designed to connect students with tutors, featuring integrated search algorithms, scheduling, and communication tools. | Full-Stack Development, React, UI/UX |
-| **Hotel Reservation System** | A robust booking engine managing room availability, reservation lifecycles, and customer data management for the hospitality sector. | Java, Database Design, MySQL |
-
----
+My experience includes developing full-stack web applications, designing databases and system architectures, analysing business processes, defining requirements, and implementing user-focused software solutions.
 
 ## Education
 
-**Sri Lanka Institute of Information Technology (SLIIT)**
-*BSc (Hons) in Information Technology Specializing in Information Systems Engineering*
-* Relevant Coursework: Software Engineering, Database Management, Object-Oriented Programming, System Architecture, UI/UX Design.
+**BSc (Hons) in Information Technology — Information Systems Engineering**
+Sri Lanka Institute of Information Technology (SLIIT)
+
+## Technical Skills
+
+**Programming Languages**
+Java, JavaScript, Python, SQL, HTML, CSS
+
+**Frontend Development**
+React, Vite, Tailwind CSS, Bootstrap
+
+**Backend Development**
+Spring Boot, Spring Security, REST APIs, JWT, WebSocket
+
+**Databases**
+MySQL, SQL, Hibernate, Spring Data JPA
+
+**Software Engineering & Analysis**
+Requirements Engineering, User Stories, Acceptance Criteria, UML, System Analysis, Database Design, Business Process Modelling
+
+**Tools**
+Git, GitHub, VS Code, Figma, Draw.io, Microsoft Excel, Microsoft Word, Microsoft PowerPoint
+
+## Selected Projects
+
+### Prime Medical — Healthcare Management System
+
+A full-stack healthcare management platform designed to streamline medical center operations and improve the experience of patients and healthcare staff.
+
+**Key Features**
+
+* Appointment and patient management
+* Doctor consultation and prescription management
+* Pharmacy and inventory management
+* Billing and payment management
+* Role-Based Access Control
+* Administrative dashboards
+* Notifications and communication features
+* AI-assisted functionality
+
+**Technologies:** Java, Spring Boot, Spring Security, JWT, React, Vite, Tailwind CSS, MySQL
+
+[View Repository](https://github.com/dulanjanhasaranga/Prime-Medical)
 
 ---
 
-## Contact & Collaboration
+### EduScope Connect — Educational Community Platform
 
-I am currently open to collaborations on architectural backend projects, Java/Spring Boot applications, and discussions regarding software engineering best practices. 
+A full-stack educational community platform designed to support collaborative learning, knowledge sharing, and student engagement.
 
-* **Email:** dulanjan.connect@gmail.com
-* **LinkedIn:** [linkedin.com/in/dulanjan-hasaranga](https://www.linkedin.com/in/dulanjan-hasaranga)
+**Key Features**
+
+* Community-based question and answer system
+* Questions, answers, voting, and reputation
+* Real-time study groups
+* WebSocket-based communication
+* Practice assessments
+* Gamification and leaderboard
+* Administrative and leader dashboards
+* Authentication and Role-Based Access Control
+
+**Technologies:** Java, Spring Boot, Spring Security, JWT, WebSocket, React, Vite, Tailwind CSS, MySQL
+
+[View Repository](https://github.com/dulanjanhasaranga/EduScope-Connect)
 
 ---
-<div align="left">
-  <img src="https://komarev.com/ghpvc/?username=dulanjanhasaranga&label=Profile%20Views&color=555555&style=flat-square" alt="Profile Views" />
-</div>
+
+### Hotel Reservation System
+
+A full-stack hotel management and reservation platform designed to manage hotel operations and customer services through a centralized system.
+
+**Key Features**
+
+* User registration and authentication
+* Room search and reservation
+* Dining reservations
+* Spa reservations
+* Payment management
+* Check-in and check-out management
+* Room and staff management
+* Administrative dashboards
+* Revenue and occupancy reporting
+
+**Technologies:** Java, Spring Boot, Spring Security, JWT, React, Vite, Tailwind CSS, MySQL
+
+[View Repository](https://github.com/dulanjanhasaranga/Hotel-Reservation-System)
+
+---
+
+### E-Commerce Cart Abandonment — Business Analyst Case Study
+
+A Business Analyst case study focused on identifying the causes of customer cart abandonment and proposing improvements to the e-commerce purchasing process.
+
+**Key Activities**
+
+* Business problem analysis
+* Stakeholder identification and analysis
+* Stakeholder persona development
+* E-commerce funnel analysis
+* AS-IS and TO-BE process modelling
+* Requirements analysis
+* User stories and acceptance criteria
+* Data-driven recommendations
+* Business presentation and documentation
+
+**Tools:** Microsoft Excel, Microsoft Word, Microsoft PowerPoint, Process Modelling and Business Analysis Techniques
+
+[View Repository](https://github.com/dulanjanhasaranga/Cart-Abandonment-Project)
+
+## Areas of Interest
+
+* Software Engineering
+* Full-Stack Web Development
+* Business Analysis
+* Systems Analysis
+* Application Development
+* Database Development
+* IT Consulting
+* Business Process Improvement
