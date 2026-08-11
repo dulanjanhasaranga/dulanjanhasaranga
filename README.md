@@ -25,7 +25,7 @@ React, Vite, Tailwind CSS, Bootstrap
 Spring Boot, Spring Security, REST APIs, JWT, WebSocket
 
 **Databases**
-MySQL, SQL, Hibernate, Spring Data JPA
+MySQL, Hibernate, Spring Data JPA
 
 **Software Engineering & Analysis**
 Requirements Engineering, User Stories, Acceptance Criteria, UML, System Analysis, Database Design, Business Process Modelling
@@ -119,13 +119,6 @@ A Business Analyst case study focused on identifying the causes of customer cart
 
 [View Repository](https://github.com/dulanjanhasaranga/Cart-Abandonment-Project)
 
-## Areas of Interest
+## Currently
 
-* Software Engineering
-* Full-Stack Web Development
-* Business Analysis
-* Systems Analysis
-* Application Development
-* Database Development
-* IT Consulting
-* Business Process Improvement
+Developing my skills in software engineering, full-stack application development, system analysis, and business analysis while working on practical software projects and preparing for internship opportunities.
