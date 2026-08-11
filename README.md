@@ -33,11 +33,11 @@ Requirements Engineering, User Stories, Acceptance Criteria, UML, System Analysi
 **Tools**
 Git, GitHub, VS Code, Figma, Draw.io, Microsoft Excel, Microsoft Word, Microsoft PowerPoint
 
-## Selected Projects
+## Projects
 
 ### Prime Medical — Healthcare Management System
 
-A full-stack healthcare management platform designed to streamline medical center operations and improve the experience of patients and healthcare staff.
+A full-stack healthcare management platform designed to streamline medical center operations and support patients and healthcare staff.
 
 **Key Features**
 
@@ -62,7 +62,7 @@ A full-stack educational community platform designed to support collaborative le
 
 **Key Features**
 
-* Community-based question and answer system
+* Community question and answer system
 * Questions, answers, voting, and reputation
 * Real-time study groups
 * WebSocket-based communication
