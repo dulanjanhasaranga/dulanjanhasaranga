@@ -1,124 +1,42 @@
-# Dulanjan Hasaranga
+# Hello there! 👋 I'm Dulanjan Hasaranga
 
-**Information Systems Engineering Undergraduate | Full-Stack Developer | Business Analyst**
+**Information Systems Engineering Undergraduate | IT Solutions Specialist**
 
-[LinkedIn](https://www.linkedin.com/in/dulanjan-hasaranga) | [Email](mailto:dulanjan.connect@gmail.com) | [GitHub Portfolio](https://github.com/dulanjanhasaranga)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_My_Website-7c3aed?style=for-the-badge&logo=vercel)](https://dulanjanhasaranga.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/dulanjan-hasaranga)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-ea4335?style=for-the-badge&logo=gmail)](mailto:dulanjan.connect@gmail.com)
 
-I am an Information Systems Engineering undergraduate at the Sri Lanka Institute of Information Technology (SLIIT), interested in software engineering, systems analysis, business analysis, and developing practical technology solutions for real-world problems.
+I am an **Information Systems Engineering** undergraduate at the **Sri Lanka Institute of Information Technology (SLIIT)**. I am passionate about building enterprise IT solutions, optimizing business processes, and driving digital transformation. My program equips me with expertise in business process automation, IT strategy, enterprise systems, cloud computing, and business intelligence.
 
-My experience includes developing full-stack web applications, designing databases and system architectures, analysing business processes, defining requirements, and implementing user-focused software solutions.
+## 🎓 Education
 
-## Education
+**BSc (Hons) in Information Technology — Information Systems Engineering**  
+*Sri Lanka Institute of Information Technology (SLIIT)*  
 
-**BSc (Hons) in Information Technology — Information Systems Engineering**
-Sri Lanka Institute of Information Technology (SLIIT)
+## 🛠️ Technical Skills
 
-## Technical Skills
+*   **Programming Languages:** Java, JavaScript, Python, SQL, HTML, CSS
+*   **Frontend Development:** React, Vite, Tailwind CSS, Bootstrap
+*   **Backend Development:** Spring Boot, Spring Security, Node.js, Express.js, REST APIs
+*   **Databases:** MySQL, MongoDB, Hibernate, Spring Data JPA
+*   **Software Engineering & Analysis:** Business Process Modelling, Requirements Engineering, UML, System Analysis, Database Design
+*   **Tools:** Git, GitHub, VS Code, Figma, Cloud Platforms, Draw.io
 
-**Programming Languages**
-Java, JavaScript, Python, SQL, HTML, CSS
+## 🚀 Featured Projects
 
-**Frontend Development**
-React, Vite, Tailwind CSS, Bootstrap
+Here are some of the projects I've built to solve real-world problems and enhance digital experiences:
 
-**Backend Development**
-Spring Boot, Spring Security, REST APIs, JWT, WebSocket
+### 🎓 [EduScope-Connect](https://github.com/dulanjanhasaranga/EduScope-Connect)
+A full-stack educational platform built to bridge the gap between students and quality learning resources, featuring a comprehensive student management system and seamless connectivity between educators and learners.
 
-**Databases**
-MySQL, Hibernate, Spring Data JPA
+### 🛒 [Cart-Abandonment-Project](https://github.com/dulanjanhasaranga/Cart-Abandonment-Project)
+An e-commerce analytics project exploring data-driven strategies to understand and reduce cart abandonment rates. This project combines technical skills with business analytics insights.
 
-**Software Engineering & Analysis**
-Requirements Engineering, User Stories, Acceptance Criteria, UML, System Analysis, Database Design, Business Process Modelling
+### 🏨 [Hotel-Reservation-System](https://github.com/dulanjanhasaranga/Hotel-Reservation-System)
+A comprehensive hotel booking and management platform simulating real-world hotel operations. It handles room reservations, guest management, and availability tracking with a scalable architecture.
 
-**Tools**
-Git, GitHub, VS Code, Figma, Draw.io, Microsoft Excel, Microsoft Word, Microsoft PowerPoint
-
-## Projects
-
-### Prime Medical — Healthcare Management System
-
-A full-stack healthcare management platform designed to streamline medical center operations and support patients and healthcare staff.
-
-**Key Features**
-
-* Appointment and patient management
-* Doctor consultation and prescription management
-* Pharmacy and inventory management
-* Billing and payment management
-* Role-Based Access Control
-* Administrative dashboards
-* Notifications and communication features
-* AI-assisted functionality
-
-**Technologies:** Java, Spring Boot, Spring Security, JWT, React, Vite, Tailwind CSS, MySQL
-
-[View Repository](https://github.com/dulanjanhasaranga/Prime-Medical)
+### 📚 [Tutor-Buddy](https://github.com/dulanjanhasaranga/Tutor-Buddy)
+A responsive tutoring platform designed to connect students with the right learning support effortlessly.
 
 ---
-
-### EduScope Connect — Educational Community Platform
-
-A full-stack educational community platform designed to support collaborative learning, knowledge sharing, and student engagement.
-
-**Key Features**
-
-* Community question and answer system
-* Questions, answers, voting, and reputation
-* Real-time study groups
-* WebSocket-based communication
-* Practice assessments
-* Gamification and leaderboard
-* Administrative and leader dashboards
-* Authentication and Role-Based Access Control
-
-**Technologies:** Java, Spring Boot, Spring Security, JWT, WebSocket, React, Vite, Tailwind CSS, MySQL
-
-[View Repository](https://github.com/dulanjanhasaranga/EduScope-Connect)
-
----
-
-### Hotel Reservation System
-
-A full-stack hotel management and reservation platform designed to manage hotel operations and customer services through a centralized system.
-
-**Key Features**
-
-* User registration and authentication
-* Room search and reservation
-* Dining reservations
-* Spa reservations
-* Payment management
-* Check-in and check-out management
-* Room and staff management
-* Administrative dashboards
-* Revenue and occupancy reporting
-
-**Technologies:** Java, Spring Boot, Spring Security, JWT, React, Vite, Tailwind CSS, MySQL
-
-[View Repository](https://github.com/dulanjanhasaranga/Hotel-Reservation-System)
-
----
-
-### E-Commerce Cart Abandonment — Business Analyst Case Study
-
-A Business Analyst case study focused on identifying the causes of customer cart abandonment and proposing improvements to the e-commerce purchasing process.
-
-**Key Activities**
-
-* Business problem analysis
-* Stakeholder identification and analysis
-* Stakeholder persona development
-* E-commerce funnel analysis
-* AS-IS and TO-BE process modelling
-* Requirements analysis
-* User stories and acceptance criteria
-* Data-driven recommendations
-* Business presentation and documentation
-
-**Tools:** Microsoft Excel, Microsoft Word, Microsoft PowerPoint, Process Modelling and Business Analysis Techniques
-
-[View Repository](https://github.com/dulanjanhasaranga/Cart-Abandonment-Project)
-
-## Currently
-
-Developing my skills in software engineering, full-stack application development, system analysis, and business analysis while working on practical software projects and preparing for internship opportunities.
+⭐️ *Feel free to explore my repositories below or reach out to me for collaborations!*
