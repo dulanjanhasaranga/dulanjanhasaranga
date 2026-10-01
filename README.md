@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://dulanjanhasaranga.github.io/dulanjanhasaranga/assets/profile.jpg" alt="Dulanjan Hasaranga" width="150" style="border-radius:50%; border: 4px solid #0f172a;" />
+  <img src="https://raw.githubusercontent.com/dulanjanhasaranga/dulanjanhasaranga/master/src/assets/profile.jpg" alt="Dulanjan Hasaranga" width="150" style="border-radius:50%; border: 4px solid #0f172a;" />
   
   <h1>Hi there, I'm Dulanjan Hasaranga! 👋</h1>
   <h3>Information Systems Engineering Undergraduate & Full-Stack Developer</h3>
