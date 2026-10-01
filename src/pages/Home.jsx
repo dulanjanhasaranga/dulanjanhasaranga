@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Globe, Linkedin, Mail } from 'lucide-react';
+import { ArrowRight, Globe, User, Mail } from 'lucide-react';
 import './Home.css';
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
                 <Globe size={24} />
               </a>
               <a href="https://linkedin.com/in/dulanjan-hasaranga" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                <Linkedin size={24} />
+                <User size={24} />
               </a>
               <a href="mailto:contact@example.com" aria-label="Email">
                 <Mail size={24} />
