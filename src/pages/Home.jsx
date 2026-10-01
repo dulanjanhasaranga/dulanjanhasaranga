@@ -2,6 +2,7 @@ import { ArrowRight, Globe, User, Mail, Code, Database, Layout, FileText } from 
 import { motion } from 'framer-motion';
 import profilePhoto from '../assets/profile.jpg';
 import './Home.css';
+import CursorRingField from '../components/CursorRingField';
 
 const Home = () => {
   const containerVariants = {
@@ -23,8 +24,7 @@ const Home = () => {
 
   return (
     <div className="page-container home-page">
-      {/* Subtle Background Grid Pattern */}
-      <div className="bg-grid"></div>
+      <CursorRingField />
       
       <div className="container home-container">
         <motion.div 
