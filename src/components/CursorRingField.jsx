@@ -931,7 +931,7 @@ function __OriginkitBase_CursorRingField(props) {
 
 const __originkitPresetProps = {
   "density": 290,
-  "dotSize": 100,
+  "dotSize": 110,
   "cameraDistance": 150
 };
 
