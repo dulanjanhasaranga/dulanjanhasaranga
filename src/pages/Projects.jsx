@@ -1,4 +1,5 @@
 import { ExternalLink, Globe } from 'lucide-react';
+import { motion } from 'framer-motion';
 import './Projects.css';
 
 const projectsData = [
@@ -29,8 +30,29 @@ const projectsData = [
 ];
 
 const Projects = () => {
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: { 
+      opacity: 1,
+      transition: { staggerChildren: 0.15 }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { 
+      opacity: 1, y: 0,
+      transition: { type: "spring", stiffness: 100 }
+    }
+  };
+
   return (
-    <div className="page-container projects-page">
+    <motion.div 
+      className="page-container projects-page"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <div className="container">
         <div className="page-header">
           <div className="badge">Portfolio</div>
@@ -38,9 +60,14 @@ const Projects = () => {
           <p className="page-subtitle">A selection of my recent work in web development and data analytics.</p>
         </div>
 
-        <div className="projects-grid">
+        <motion.div 
+          className="projects-grid"
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+        >
           {projectsData.map((project) => (
-            <div key={project.id} className="project-card">
+            <motion.div key={project.id} className="project-card" variants={itemVariants}>
               {project.isDataViz ? (
                 <div className="project-data-header">
                   <div className="data-bars">
@@ -72,11 +99,11 @@ const Projects = () => {
                   ))}
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
