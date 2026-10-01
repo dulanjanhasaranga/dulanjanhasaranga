@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/dulanjanhasaranga">
       <div className="layout">
         <Navbar />
         <main>

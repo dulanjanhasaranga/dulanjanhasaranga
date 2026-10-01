@@ -2,7 +2,7 @@
   "name": "my-portfolio-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dulanjanhasaranga.github.io",
+  "homepage": "https://dulanjanhasaranga.github.io/dulanjanhasaranga",
   "type": "module",
   "scripts": {
     "dev": "vite",
