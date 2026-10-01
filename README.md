@@ -10,14 +10,17 @@
 
   <br />
 
-  <a href="https://dulanjanhasaranga.github.io/dulanjanhasaranga">
+  <!-- WORKING PORTFOLIO LINK -->
+  <a href="https://dulanjanhasaranga.github.io/dulanjanhasaranga/">
     <img src="https://img.shields.io/badge/🌍_Visit_My_Portfolio-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit My Portfolio Website" />
   </a>
   &nbsp;&nbsp;
+  <!-- LINKEDIN LINK -->
   <a href="https://linkedin.com/in/dulanjan-hasaranga">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
+  <!-- EMAIL LINK -->
   <a href="mailto:dulanjan.connect@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
@@ -31,7 +34,7 @@
 - 🎓 I'm currently studying **BSc (Hons) in Information Systems Engineering** at SLIIT.
 - 💻 I love working with **React, Node.js, JavaScript, MongoDB**, and building full-stack architectures.
 - 📊 I also have a strong passion for **Data Analytics and Business Analysis**.
-- 💡 Check out my recent work in my [Portfolio Website](https://dulanjanhasaranga.github.io/dulanjanhasaranga).
+- 💡 Check out my recent work in my [Portfolio Website](https://dulanjanhasaranga.github.io/dulanjanhasaranga/).
 
 ## 🛠️ Tech Stack
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
