@@ -1,42 +1,50 @@
-# Hello there! 👋 I'm Dulanjan Hasaranga
+<div align="center">
+  <img src="https://dulanjanhasaranga.github.io/dulanjanhasaranga/assets/profile.jpg" alt="Dulanjan Hasaranga" width="150" style="border-radius:50%" />
+  
+  <h1>Hi there, I'm Dulanjan! 👋</h1>
+  <h3>Information Systems Engineering Undergraduate & Full-Stack Developer</h3>
 
-**Information Systems Engineering Undergraduate | IT Solutions Specialist**
+  <p>
+    Welcome to my GitHub profile! I specialize in building modern, user-centric web applications, turning complex problems into elegant, scalable solutions.
+  </p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_My_Website-7c3aed?style=for-the-badge&logo=vercel)](https://dulanjanhasaranga.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/dulanjan-hasaranga)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-ea4335?style=for-the-badge&logo=gmail)](mailto:dulanjan.connect@gmail.com)
+  <br />
 
-I am an **Information Systems Engineering** undergraduate at the **Sri Lanka Institute of Information Technology (SLIIT)**. I am passionate about building enterprise IT solutions, optimizing business processes, and driving digital transformation. My program equips me with expertise in business process automation, IT strategy, enterprise systems, cloud computing, and business intelligence.
+  <a href="https://dulanjanhasaranga.github.io/dulanjanhasaranga">
+    <img src="https://img.shields.io/badge/🌍_Visit_My_Portfolio-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit My Portfolio Website" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/dulanjan-hasaranga">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:dulanjan.connect@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 
-## 🎓 Education
-
-**BSc (Hons) in Information Technology — Information Systems Engineering**  
-*Sri Lanka Institute of Information Technology (SLIIT)*  
-
-## 🛠️ Technical Skills
-
-*   **Programming Languages:** Java, JavaScript, Python, SQL, HTML, CSS
-*   **Frontend Development:** React, Vite, Tailwind CSS, Bootstrap
-*   **Backend Development:** Spring Boot, Spring Security, Node.js, Express.js, REST APIs
-*   **Databases:** MySQL, MongoDB, Hibernate, Spring Data JPA
-*   **Software Engineering & Analysis:** Business Process Modelling, Requirements Engineering, UML, System Analysis, Database Design
-*   **Tools:** Git, GitHub, VS Code, Figma, Cloud Platforms, Draw.io
-
-## 🚀 Featured Projects
-
-Here are some of the projects I've built to solve real-world problems and enhance digital experiences:
-
-### 🎓 [EduScope-Connect](https://github.com/dulanjanhasaranga/EduScope-Connect)
-A full-stack educational platform built to bridge the gap between students and quality learning resources, featuring a comprehensive student management system and seamless connectivity between educators and learners.
-
-### 🛒 [Cart-Abandonment-Project](https://github.com/dulanjanhasaranga/Cart-Abandonment-Project)
-An e-commerce analytics project exploring data-driven strategies to understand and reduce cart abandonment rates. This project combines technical skills with business analytics insights.
-
-### 🏨 [Hotel-Reservation-System](https://github.com/dulanjanhasaranga/Hotel-Reservation-System)
-A comprehensive hotel booking and management platform simulating real-world hotel operations. It handles room reservations, guest management, and availability tracking with a scalable architecture.
-
-### 📚 [Tutor-Buddy](https://github.com/dulanjanhasaranga/Tutor-Buddy)
-A responsive tutoring platform designed to connect students with the right learning support effortlessly.
+  <br /><br />
+</div>
 
 ---
-⭐️ *Feel free to explore my repositories below or reach out to me for collaborations!*
+
+## 🚀 About Me
+- 🎓 I'm currently studying **BSc (Hons) in Information Systems Engineering** at SLIIT.
+- 💻 I love working with **React, Node.js, JavaScript, MongoDB**, and building full-stack architectures.
+- 📊 I also have a strong passion for **Data Analytics and Business Analysis**.
+- 💡 Check out my recent work in my [Portfolio Website](https://dulanjanhasaranga.github.io/dulanjanhasaranga).
+
+## 🛠️ Tech Stack
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+
+## 📈 GitHub Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dulanjanhasaranga&show_icons=true&theme=radium&hide_border=true" alt="Dulanjan's GitHub Stats" />
+</div>
+
+<br />
+
+> *"Building digital experiences with purpose and precision."*
