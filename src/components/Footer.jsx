@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import { Globe, User, Mail } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -27,10 +27,10 @@ const Footer = () => {
             <h4>Connect</h4>
             <div className="social-icons">
               <a href="https://github.com/dulanjanhasaranga" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <Github size={20} />
+                <Globe size={20} />
               </a>
               <a href="https://linkedin.com/in/dulanjan-hasaranga" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                <Linkedin size={20} />
+                <User size={20} />
               </a>
               <a href="mailto:contact@example.com" aria-label="Email">
                 <Mail size={20} />
