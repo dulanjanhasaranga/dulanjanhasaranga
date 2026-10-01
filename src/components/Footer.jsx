@@ -32,7 +32,7 @@ const Footer = () => {
               <a href="https://linkedin.com/in/dulanjan-hasaranga" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <User size={20} />
               </a>
-              <a href="mailto:contact@example.com" aria-label="Email">
+              <a href="mailto:dulanjan.connect@gmail.com" aria-label="Email">
                 <Mail size={20} />
               </a>
             </div>

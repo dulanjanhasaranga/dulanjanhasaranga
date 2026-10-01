@@ -59,7 +59,7 @@ const Home = () => {
               <a href="https://linkedin.com/in/dulanjan-hasaranga" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="social-icon">
                 <User size={22} />
               </a>
-              <a href="mailto:contact@example.com" aria-label="Email" className="social-icon">
+              <a href="mailto:dulanjan.connect@gmail.com" aria-label="Email" className="social-icon">
                 <Mail size={22} />
               </a>
             </div>
