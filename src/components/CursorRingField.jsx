@@ -513,7 +513,7 @@ function hexToRgb(hex) {
 }
 
 
-export default function CursorRingField(props) {
+function __OriginkitBase_CursorRingField(props) {
     const {
         background: backgroundProp,
         colors,
@@ -927,4 +927,14 @@ export default function CursorRingField(props) {
             {}
         </div>
     )
+}
+
+const __originkitPresetProps = {
+  "density": 290,
+  "dotSize": 100,
+  "cameraDistance": 150
+};
+
+export default function CursorRingField(props) {
+  return <__OriginkitBase_CursorRingField {...__originkitPresetProps} {...props} />;
 }
