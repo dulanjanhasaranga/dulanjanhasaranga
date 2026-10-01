@@ -45,7 +45,7 @@ const Home = () => {
           </motion.h1>
           
           <motion.p variants={itemVariants} className="hero-subtitle">
-            Information Systems Engineering Undergraduate & Full-Stack Developer specializing in clean, user-centric digital experiences. I turn complex problems into elegant, scalable solutions.
+            Information Systems Engineering Undergraduate | Aspiring Business & Systems Analyst. I use data analysis and software development to validate requirements and solve complex business problems.
           </motion.p>
           
           <motion.div variants={itemVariants} className="hero-actions">

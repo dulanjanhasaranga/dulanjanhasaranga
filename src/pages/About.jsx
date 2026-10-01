@@ -42,10 +42,13 @@ const About = () => {
             viewport={{ once: true, amount: 0.2 }}
           >
             <motion.p variants={itemVariants} className="about-paragraph">
-              I am an Information Systems Engineering undergraduate at SLIIT with a deep passion for building data-driven applications and comprehensive full-stack solutions. 
+              I'm a third-year Information Systems Engineering undergraduate building toward a career that moves from Business Analysis, through Systems Analysis, into Enterprise Architecture. My interest is in how business strategy, processes, information, applications, and technology fit together to produce systems that actually solve the problem in front of them — not just working software.
             </motion.p>
             <motion.p variants={itemVariants} className="about-paragraph">
-              My journey started with a fascination for how data shapes digital experiences. Recently, I've been focused on analyzing large datasets—like my deep-dive into E-commerce Cart Abandonment—and translating those insights into functional, scalable web platforms.
+              On every project, I try to answer three questions in order: <strong>Business</strong> — what problem are we actually solving? <strong>Systems</strong> — what should the system do to support that? <strong>Architecture</strong> — how does this fit into the wider organization?
+            </motion.p>
+            <motion.p variants={itemVariants} className="about-paragraph">
+              I use data analysis and software development as tools to validate requirements, test assumptions, and communicate with technical teams — not as ends in themselves.
             </motion.p>
 
             <motion.div variants={itemVariants} className="skills-container">
