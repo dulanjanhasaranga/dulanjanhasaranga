@@ -1,48 +1,119 @@
+import { motion } from 'framer-motion';
+import { Mail, MapPin, Send, MessageSquare } from 'lucide-react';
+import './Contact.css';
+
 const Contact = () => {
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: { 
+      opacity: 1,
+      transition: { staggerChildren: 0.15 }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { 
+      opacity: 1, y: 0,
+      transition: { type: "spring", stiffness: 100 }
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Simulate form submission
+    const btn = e.target.querySelector('button');
+    const originalText = btn.innerHTML;
+    btn.innerHTML = 'Message Sent! ✓';
+    btn.style.backgroundColor = '#10b981';
+    
+    setTimeout(() => {
+      btn.innerHTML = originalText;
+      btn.style.backgroundColor = '';
+      e.target.reset();
+    }, 3000);
+  };
+
   return (
-    <div className="page-container">
-      <div className="container" style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
-        <div className="badge">Get In Touch</div>
-        <h1 className="page-title">Let's <span className="text-gradient">Connect</span></h1>
+    <motion.div 
+      className="page-container contact-page"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
+      <div className="container contact-container">
+        <motion.div variants={containerVariants} initial="hidden" animate="visible" className="contact-header">
+          <motion.div variants={itemVariants} className="badge">Get In Touch</motion.div>
+          <motion.h1 variants={itemVariants} className="page-title">Let's <span className="text-gradient">Connect</span></motion.h1>
+          <motion.p variants={itemVariants} className="page-subtitle">I'm currently open to new opportunities in software engineering, full-stack development, and data analytics. Have a question or a project? Drop a message!</motion.p>
+        </motion.div>
         
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', marginTop: '3rem' }}>
-          <div>
-            <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem' }}>
-              I'm currently open to new opportunities in software engineering, full-stack development, and data analytics.
-            </p>
-            
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-              <a href="mailto:contact@example.com" style={{ padding: '1rem', border: '1px solid var(--border-color)', borderRadius: 'var(--radius-sm)', display: 'block' }}>
-                <strong style={{ display: 'block', marginBottom: '0.25rem' }}>Email</strong>
-                <span style={{ color: 'var(--text-secondary)' }}>contact@example.com</span>
-              </a>
-              <a href="https://linkedin.com/in/dulanjan-hasaranga" target="_blank" rel="noopener noreferrer" style={{ padding: '1rem', border: '1px solid var(--border-color)', borderRadius: 'var(--radius-sm)', display: 'block' }}>
-                <strong style={{ display: 'block', marginBottom: '0.25rem' }}>LinkedIn</strong>
-                <span style={{ color: 'var(--text-secondary)' }}>linkedin.com/in/dulanjan-hasaranga</span>
-              </a>
+        <motion.div 
+          className="contact-content"
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+        >
+          <motion.div variants={itemVariants} className="contact-info-cards">
+            <div className="info-card">
+              <div className="info-icon-wrapper">
+                <Mail size={24} className="info-icon" />
+              </div>
+              <div>
+                <h3>Email</h3>
+                <p>contact@example.com</p>
+                <a href="mailto:contact@example.com" className="info-link">Write me a message →</a>
+              </div>
             </div>
-          </div>
+            
+            <div className="info-card">
+              <div className="info-icon-wrapper">
+                <MessageSquare size={24} className="info-icon" />
+              </div>
+              <div>
+                <h3>LinkedIn</h3>
+                <p>dulanjan-hasaranga</p>
+                <a href="https://linkedin.com/in/dulanjan-hasaranga" target="_blank" rel="noopener noreferrer" className="info-link">Connect with me →</a>
+              </div>
+            </div>
+            
+            <div className="info-card">
+              <div className="info-icon-wrapper">
+                <MapPin size={24} className="info-icon" />
+              </div>
+              <div>
+                <h3>Location</h3>
+                <p>Sri Lanka</p>
+                <span className="info-link disabled">Available remotely Worldwide</span>
+              </div>
+            </div>
+          </motion.div>
           
-          <div style={{ padding: '2rem', background: 'var(--bg-secondary)', borderRadius: 'var(--radius-lg)' }}>
-            <form style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-              <div>
-                <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.9rem', fontWeight: '500' }}>Name</label>
-                <input type="text" style={{ width: '100%', padding: '0.75rem', border: '1px solid var(--border-color)', borderRadius: 'var(--radius-sm)' }} placeholder="John Doe" />
+          <motion.div variants={itemVariants} className="contact-form-wrapper">
+            <form className="contact-form" onSubmit={handleSubmit}>
+              <div className="form-group">
+                <label>Name</label>
+                <input type="text" required placeholder="John Doe" className="form-input" />
               </div>
-              <div>
-                <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.9rem', fontWeight: '500' }}>Email</label>
-                <input type="email" style={{ width: '100%', padding: '0.75rem', border: '1px solid var(--border-color)', borderRadius: 'var(--radius-sm)' }} placeholder="john@example.com" />
+              
+              <div className="form-group">
+                <label>Email</label>
+                <input type="email" required placeholder="john@example.com" className="form-input" />
               </div>
-              <div>
-                <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.9rem', fontWeight: '500' }}>Message</label>
-                <textarea rows={4} style={{ width: '100%', padding: '0.75rem', border: '1px solid var(--border-color)', borderRadius: 'var(--radius-sm)', resize: 'vertical' }} placeholder="How can I help you?"></textarea>
+              
+              <div className="form-group">
+                <label>Message</label>
+                <textarea rows={5} required placeholder="How can I help you?" className="form-input"></textarea>
               </div>
-              <button type="button" className="btn btn-primary" style={{ width: '100%' }}>Send Message</button>
+              
+              <button type="submit" className="btn btn-primary submit-btn">
+                Send Message <Send size={18} />
+              </button>
             </form>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
