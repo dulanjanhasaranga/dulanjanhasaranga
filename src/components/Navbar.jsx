@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { NavLink, Link } from 'react-router-dom';
 import { Menu, X, Code2 } from 'lucide-react';
 import './Navbar.css';
 
@@ -11,16 +10,16 @@ const Navbar = () => {
   return (
     <header className="navbar">
       <div className="container nav-container">
-        <Link to="/" className="nav-logo" onClick={() => setIsOpen(false)}>
+        <a href="#home" className="nav-logo" onClick={() => setIsOpen(false)}>
           <Code2 className="logo-icon" size={24} />
           <span>Dulanjan</span>
-        </Link>
+        </a>
         
         <nav className={`nav-links ${isOpen ? 'active' : ''}`}>
-          <NavLink to="/" className="nav-link" onClick={() => setIsOpen(false)}>Home</NavLink>
-          <NavLink to="/about" className="nav-link" onClick={() => setIsOpen(false)}>About</NavLink>
-          <NavLink to="/projects" className="nav-link" onClick={() => setIsOpen(false)}>Projects</NavLink>
-          <NavLink to="/contact" className="nav-link" onClick={() => setIsOpen(false)}>Contact</NavLink>
+          <a href="#home" className="nav-link" onClick={() => setIsOpen(false)}>Home</a>
+          <a href="#about" className="nav-link" onClick={() => setIsOpen(false)}>About</a>
+          <a href="#projects" className="nav-link" onClick={() => setIsOpen(false)}>Projects</a>
+          <a href="#contact" className="nav-link" onClick={() => setIsOpen(false)}>Contact</a>
         </nav>
 
         <button className="mobile-toggle" onClick={toggleMenu} aria-label="Toggle Menu">

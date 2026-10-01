@@ -42,7 +42,7 @@ const Contact = () => {
       exit={{ opacity: 0 }}
     >
       <div className="container contact-container">
-        <motion.div variants={containerVariants} initial="hidden" animate="visible" className="contact-header">
+        <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} className="contact-header">
           <motion.div variants={itemVariants} className="badge">Get In Touch</motion.div>
           <motion.h1 variants={itemVariants} className="page-title">Let's <span className="text-gradient">Connect</span></motion.h1>
           <motion.p variants={itemVariants} className="page-subtitle">I'm currently open to new opportunities in software engineering, full-stack development, and data analytics. Have a question or a project? Drop a message!</motion.p>
@@ -52,7 +52,8 @@ const Contact = () => {
           className="contact-content"
           variants={containerVariants}
           initial="hidden"
-          animate="visible"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
         >
           <motion.div variants={itemVariants} className="contact-info-cards">
             <div className="info-card">

@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { ArrowRight, Globe, User, Mail, Code, Database, Layout } from 'lucide-react';
 import { motion } from 'framer-motion';
 import './Home.css';
@@ -49,9 +48,9 @@ const Home = () => {
           </motion.p>
           
           <motion.div variants={itemVariants} className="hero-actions">
-            <Link to="/projects" className="btn btn-primary">
+            <a href="#projects" className="btn btn-primary">
               View My Work <ArrowRight size={18} />
-            </Link>
+            </a>
             <div className="social-links">
               <a href="https://github.com/dulanjanhasaranga" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="social-icon">
                 <Globe size={22} />

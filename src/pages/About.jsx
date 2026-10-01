@@ -27,7 +27,7 @@ const About = () => {
       exit={{ opacity: 0 }}
     >
       <div className="container" style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
-        <motion.div variants={containerVariants} initial="hidden" animate="visible" className="about-header">
+        <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} className="about-header">
           <motion.div variants={itemVariants} className="badge">About Me</motion.div>
           <motion.h1 variants={itemVariants} className="page-title">My <span className="text-gradient">Journey</span></motion.h1>
           <motion.p variants={itemVariants} className="page-subtitle">Passionate about bridging technical development with business analytics to create impactful solutions.</motion.p>
@@ -38,7 +38,8 @@ const About = () => {
             className="about-text-section"
             variants={containerVariants}
             initial="hidden"
-            animate="visible"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
           >
             <motion.p variants={itemVariants} className="about-paragraph">
               I am an Information Systems Engineering undergraduate at SLIIT with a deep passion for building data-driven applications and comprehensive full-stack solutions. 
@@ -61,7 +62,8 @@ const About = () => {
             className="about-timeline"
             variants={containerVariants}
             initial="hidden"
-            animate="visible"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
           >
             <h3 className="section-heading"><GraduationCap className="heading-icon" size={20} /> Education</h3>
             

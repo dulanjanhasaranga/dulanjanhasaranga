@@ -64,7 +64,8 @@ const Projects = () => {
           className="projects-grid"
           variants={containerVariants}
           initial="hidden"
-          animate="visible"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.1 }}
         >
           {projectsData.map((project) => (
             <motion.div key={project.id} className="project-card" variants={itemVariants}>
