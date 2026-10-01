@@ -1,4 +1,4 @@
-import { ArrowRight, Globe, User, Mail, Code, Database, Layout } from 'lucide-react';
+import { ArrowRight, Globe, User, Mail, Code, Database, Layout, FileText } from 'lucide-react';
 import { motion } from 'framer-motion';
 import profilePhoto from '../assets/profile.jpg';
 import './Home.css';
@@ -52,6 +52,9 @@ const Home = () => {
             <a href="#projects" className="btn btn-primary">
               View My Work <ArrowRight size={18} />
             </a>
+            <a href="/dulanjanhasaranga/CV.pdf" target="_blank" className="btn btn-outline" download>
+              Download CV <FileText size={18} />
+            </a>
             <div className="social-links">
               <a href="https://github.com/dulanjanhasaranga" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="social-icon">
                 <Globe size={22} />
@@ -65,13 +68,16 @@ const Home = () => {
             </div>
           </motion.div>
 
-          {/* Mini Tech Stack */}
+          {/* Detailed Skills Grid */}
           <motion.div variants={itemVariants} className="tech-stack-preview">
-            <p className="tech-title">Core Technologies</p>
+            <p className="tech-title">Core Skills & Technologies</p>
             <div className="tech-icons">
               <span className="tech-pill"><Code size={16}/> React</span>
               <span className="tech-pill"><Database size={16}/> Node.js</span>
-              <span className="tech-pill"><Layout size={16}/> JavaScript</span>
+              <span className="tech-pill"><Layout size={16}/> Express</span>
+              <span className="tech-pill"><Database size={16}/> MongoDB</span>
+              <span className="tech-pill"><Database size={16}/> MySQL</span>
+              <span className="tech-pill"><Code size={16}/> JavaScript</span>
             </div>
           </motion.div>
         </motion.div>
