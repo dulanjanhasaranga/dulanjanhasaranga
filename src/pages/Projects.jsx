@@ -1,4 +1,3 @@
-import { ExternalLink, Globe } from 'lucide-react';
 import { motion } from 'framer-motion';
 import './Projects.css';
 
@@ -68,7 +67,14 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.1 }}
         >
           {projectsData.map((project) => (
-            <motion.div key={project.id} className="project-card" variants={itemVariants}>
+            <motion.a 
+              href={project.github} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              key={project.id} 
+              className="project-card" 
+              variants={itemVariants}
+            >
               {project.isDataViz ? (
                 <div className="project-data-header">
                   <div className="data-bars">
@@ -88,10 +94,6 @@ const Projects = () => {
               <div className="project-content">
                 <div className="project-header">
                   <h3>{project.title}</h3>
-                  <div className="project-links">
-                    <a href={project.github} target="_blank" rel="noopener noreferrer"><Globe size={20} /></a>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><ExternalLink size={20} /></a>
-                  </div>
                 </div>
                 <p>{project.description}</p>
                 <div className="project-tags">
@@ -100,7 +102,7 @@ const Projects = () => {
                   ))}
                 </div>
               </div>
-            </motion.div>
+            </motion.a>
           ))}
         </motion.div>
       </div>
