@@ -1,5 +1,6 @@
 import { ArrowRight, Globe, User, Mail, Code, Database, Layout } from 'lucide-react';
 import { motion } from 'framer-motion';
+import profilePhoto from '../assets/profile.jpg';
 import './Home.css';
 
 const Home = () => {
@@ -85,24 +86,11 @@ const Home = () => {
           <div className="visual-circle-2"></div>
           
           <motion.div 
-            className="visual-card"
+            className="profile-image-container"
             whileHover={{ y: -5, scale: 1.02 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <div className="card-header">
-              <div className="window-dots">
-                <span className="dot red"></span>
-                <span className="dot yellow"></span>
-                <span className="dot green"></span>
-              </div>
-            </div>
-            <div className="card-body">
-              <span className="mono text-accent">const</span> <span className="mono text-muted">developer</span> = <span className="mono text-string">"Dulanjan"</span>;
-              <br/><br/>
-              <span className="mono text-accent">return</span> ( <br/>
-              &nbsp;&nbsp;<span className="mono text-string">&lt;Innovation /&gt;</span> <br/>
-              );
-            </div>
+            <img src={profilePhoto} alt="Dulanjan" className="profile-image" />
           </motion.div>
         </motion.div>
       </div>
