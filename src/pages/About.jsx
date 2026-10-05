@@ -92,7 +92,7 @@ const About = () => {
                 <Award size={20} />
               </div>
               <div className="timeline-content">
-                <span className="timeline-date">2023 - Present</span>
+                <span className="timeline-date">2025 - Present</span>
                 <h4>Independent Developer & Analyst</h4>
                 <p>Freelance & Academic Projects</p>
                 <ul className="timeline-details">
