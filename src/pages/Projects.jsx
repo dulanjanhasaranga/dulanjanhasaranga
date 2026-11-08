@@ -32,7 +32,7 @@ const projectsData = [
     title: 'MIRRA',
     description: 'A high-performance fashion storefront with search-first navigation, category rails, dynamic checkout flow, and Cloudflare Worker serverless architecture.',
     tags: ['TypeScript', 'Vite', 'Cloudflare Workers', 'Bun'],
-    link: 'https://github.com/dulanjanhasaranga/MIRRA',
+    link: 'https://github.com/dulanjanhasaranga/MIRRA.',
     image: 'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=800'
   },
   {
