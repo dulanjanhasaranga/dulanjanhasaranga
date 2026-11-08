@@ -129,7 +129,7 @@ const About = () => {
                 <p>Freelance & Academic Projects</p>
                 <ul className="timeline-details">
                   <li>Developed EduScope-Connect and Hotel Reservation systems</li>
-                  <li>Engineered Prime Medical Healthcare management system</li>
+                  <li>Engineered MIRRA fashion e-commerce storefront</li>
                   <li>Executed E-Commerce Cart Abandonment business analysis on 90k+ sessions</li>
                 </ul>
               </div>
