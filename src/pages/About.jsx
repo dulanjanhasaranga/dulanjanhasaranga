@@ -1,5 +1,8 @@
 import { motion } from 'framer-motion';
 import { GraduationCap, Briefcase, Award, Code2, School } from 'lucide-react';
+import sliitLogo from '../assets/sliit-logo.webp';
+import dsLogo from '../assets/ds-senanayake-logo.webp';
+import wickramashilaLogo from '../assets/wickramashila-logo.png';
 import './About.css';
 
 const About = () => {
@@ -85,8 +88,8 @@ const About = () => {
             
             {/* University Education */}
             <motion.div variants={itemVariants} className="timeline-card">
-              <div className="timeline-icon">
-                <GraduationCap size={20} />
+              <div className="timeline-icon has-logo">
+                <img src={sliitLogo} alt="SLIIT Logo" />
               </div>
               <div className="timeline-content">
                 <span className="timeline-date">2022 - Present</span>
@@ -100,19 +103,34 @@ const About = () => {
               </div>
             </motion.div>
 
-            {/* School Education */}
+            {/* A/L Education */}
             <motion.div variants={itemVariants} className="timeline-card">
-              <div className="timeline-icon">
-                <School size={20} />
+              <div className="timeline-icon has-logo">
+                <img src={dsLogo} alt="D. S. Senanayake Central College Logo" />
               </div>
               <div className="timeline-content">
-                <span className="timeline-date">Secondary Education</span>
-                <h4>Secondary School & College</h4>
-                <p>G.C.E. Advanced Level (A/L) & Ordinary Level (O/L)</p>
+                <span className="timeline-date">G.C.E. Advanced Level (A/L)</span>
+                <h4>D. S. Senanayake Central College, Mirigama</h4>
+                <p>Secondary Education – G.C.E. Advanced Level (A/L)</p>
                 <ul className="timeline-details">
-                  <li>G.C.E. Advanced Level (A/L) Examination</li>
-                  <li>G.C.E. Ordinary Level (O/L) Examination</li>
-                  <li>Active participation in school societies, academic activities, and sports</li>
+                  <li>Completed G.C.E. Advanced Level (A/L) Examination</li>
+                  <li>Active participation in school societies, academic activities, and extracurriculars</li>
+                </ul>
+              </div>
+            </motion.div>
+
+            {/* O/L Education */}
+            <motion.div variants={itemVariants} className="timeline-card">
+              <div className="timeline-icon has-logo">
+                <img src={wickramashilaLogo} alt="Wickramashila National School Logo" />
+              </div>
+              <div className="timeline-content">
+                <span className="timeline-date">G.C.E. Ordinary Level (O/L)</span>
+                <h4>Wickramashila National School, Giriulla</h4>
+                <p>Secondary Education – G.C.E. Ordinary Level (O/L)</p>
+                <ul className="timeline-details">
+                  <li>Completed G.C.E. Ordinary Level (O/L) Examination</li>
+                  <li>Active participation in school clubs, societies, and sports</li>
                 </ul>
               </div>
             </motion.div>
