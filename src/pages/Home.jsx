@@ -1,4 +1,4 @@
-import { ArrowRight, Globe, User, Mail, Code, Database, Layout, FileText } from 'lucide-react';
+import { ArrowRight, Globe, User, Mail, Code, Database, Layout, FileText, Briefcase, LineChart } from 'lucide-react';
 import { motion } from 'framer-motion';
 import profilePhoto from '../assets/profile.jpg';
 import './Home.css';
@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <div className="page-container home-page">
-      <CursorRingField />
+      <CursorRingField style={{ opacity: 0.25 }} />
       
       <div className="container home-container">
         <motion.div 
@@ -33,13 +33,17 @@ const Home = () => {
           initial="hidden"
           animate="visible"
         >
+          <motion.div variants={itemVariants} className="hero-kicker-badge">
+            <span>Information Systems Engineering Undergraduate</span>
+          </motion.div>
+          
           <motion.h1 variants={itemVariants} className="hero-title">
             Hi, I'm Dulanjan. <br />
-            I build <span className="text-gradient">modern web apps</span>.
+            <span className="text-gradient">Aspiring Business Analyst</span> & Software Developer.
           </motion.h1>
           
           <motion.p variants={itemVariants} className="hero-subtitle">
-            Information Systems Engineering Undergraduate | Aspiring Business & Systems Analyst. I use data analysis and software development to validate requirements and solve complex business problems.
+            I'm a third-year Information Systems Engineering undergraduate passionate about business analysis, systems development, and digital transformation. I enjoy translating business requirements into practical digital solutions through process analysis, data-driven insights, and software development.
           </motion.p>
           
           <motion.div variants={itemVariants} className="hero-actions">
@@ -64,14 +68,14 @@ const Home = () => {
 
           {/* Detailed Skills Grid */}
           <motion.div variants={itemVariants} className="tech-stack-preview">
-            <p className="tech-title">Core Skills & Technologies</p>
+            <p className="tech-title">Core Skills & Competencies</p>
             <div className="tech-icons">
+              <span className="tech-pill"><Briefcase size={16}/> Business Analysis</span>
+              <span className="tech-pill"><LineChart size={16}/> Data Analytics</span>
+              <span className="tech-pill"><Database size={16}/> SQL & Modeling</span>
               <span className="tech-pill"><Code size={16}/> React</span>
               <span className="tech-pill"><Database size={16}/> Node.js</span>
-              <span className="tech-pill"><Layout size={16}/> Express</span>
-              <span className="tech-pill"><Database size={16}/> MongoDB</span>
-              <span className="tech-pill"><Database size={16}/> MySQL</span>
-              <span className="tech-pill"><Code size={16}/> JavaScript</span>
+              <span className="tech-pill"><Layout size={16}/> Agile / Scrum</span>
             </div>
           </motion.div>
         </motion.div>

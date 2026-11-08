@@ -4,17 +4,33 @@ import './Projects.css';
 
 const projectsData = [
   {
+    id: 'cart',
+    title: 'Cart Abandonment Analysis',
+    description: 'Deep-dive business analytics and process flow evaluation on 90,000+ sessions to identify checkout friction, model conversion drop-offs, and recommend optimization strategies.',
+    tags: ['Business Analysis', 'Data Analytics', 'Process Modeling', 'E-Commerce'],
+    link: 'https://github.com/dulanjanhasaranga/Cart-Abandonment-Project',
+    isDataViz: true
+  },
+  {
     id: 'eduscope',
     title: 'EduScope-Connect',
-    description: 'A full-stack educational platform bridging the gap between students and quality learning resources.',
-    tags: ['React', 'Node.js', 'MongoDB'],
+    description: 'Educational platform designed through stakeholder requirement elicitation, SRS documentation, and UML workflow modeling, translated into a full-stack web application.',
+    tags: ['Systems Analysis', 'SRS & UML', 'React', 'Node.js', 'MongoDB'],
     link: 'https://github.com/dulanjanhasaranga/EduScope-Connect',
     image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=800'
   },
   {
+    id: 'hotel',
+    title: 'Hotel Reservation System',
+    description: 'Comprehensive hospitality platform engineered with database modeling (MySQL), user workflows, and administrative business logic to streamline reservations.',
+    tags: ['Requirements Modeling', 'Database Design', 'MySQL', 'Full-Stack'],
+    link: 'https://github.com/dulanjanhasaranga/Hotel-Reservation-System',
+    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800'
+  },
+  {
     id: 'mirra',
     title: 'MIRRA',
-    description: 'A fashion e-commerce storefront with search-first navigation, category rails, sale pricing, product grids, size & colour selection, and a slide-out bag with free-shipping progress.',
+    description: 'A high-performance fashion storefront with search-first navigation, category rails, dynamic checkout flow, and Cloudflare Worker serverless architecture.',
     tags: ['TypeScript', 'Vite', 'Cloudflare Workers', 'Bun'],
     link: 'https://github.com/dulanjanhasaranga/MIRRA',
     image: 'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=800'
@@ -27,22 +43,6 @@ const projectsData = [
     link: null,
     image: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&q=80&w=800',
     isPending: true
-  },
-  {
-    id: 'hotel',
-    title: 'Hotel Reservation System',
-    description: 'Comprehensive hotel booking platform managing room availability, guests, and administrative tasks.',
-    tags: ['JavaScript', 'MySQL', 'Full-Stack'],
-    link: 'https://github.com/dulanjanhasaranga/Hotel-Reservation-System',
-    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800'
-  },
-  {
-    id: 'cart',
-    title: 'Cart Abandonment Analysis',
-    description: 'Deep-dive business analysis on 90,000+ sessions to optimize e-commerce checkout flows and reduce drop-off.',
-    tags: ['Data Analytics', 'Business Analysis'],
-    link: 'https://github.com/dulanjanhasaranga/Cart-Abandonment-Project',
-    isDataViz: true
   }
 ];
 
