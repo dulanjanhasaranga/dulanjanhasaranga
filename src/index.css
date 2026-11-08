@@ -37,6 +37,11 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+main > div {
+  scroll-margin-top: 5rem;
 }
 
 body {
