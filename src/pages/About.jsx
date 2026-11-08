@@ -181,23 +181,28 @@ const About = () => {
             <h3 className="section-heading"><Briefcase className="heading-icon" size={22} /> Professional Experience</h3>
           </div>
 
-          <motion.div variants={itemVariants} className="timeline-card experience-card">
-            <div className="timeline-icon">
-              <Award size={20} />
-            </div>
-            <div className="timeline-content">
-              <div className="card-top-row">
-                <span className="timeline-date">2025 - Present</span>
-                <span className="role-type-badge">Freelance & Academic</span>
+          <motion.div variants={itemVariants} className="education-card experience-card">
+            <div className="institution-header">
+              <div className="institution-logo-wrap experience-logo-wrap">
+                <Award size={28} />
               </div>
-              <h4>Independent Developer & Analyst</h4>
-              <p className="card-subtitle">Applied Systems Development & Analytics Projects</p>
-              <ul className="timeline-details">
-                <li>Developed EduScope-Connect educational platform and Hotel Reservation systems</li>
-                <li>Engineered MIRRA fashion e-commerce storefront with high-performance worker architecture</li>
-                <li>Executed E-Commerce Cart Abandonment business analysis on 90,000+ sessions to optimize user journeys</li>
-              </ul>
+              <div className="institution-info">
+                <div className="card-top-row">
+                  <span className="timeline-date">2025 - Present</span>
+                  <span className="role-type-badge">Freelance & Academic</span>
+                </div>
+                <h4 className="institution-name">Independent Developer & Analyst</h4>
+                <p className="education-degree">Applied Systems Development & Analytics Projects</p>
+              </div>
             </div>
+
+            <div className="institution-divider"></div>
+
+            <ul className="timeline-details">
+              <li>Developed EduScope-Connect educational platform and Hotel Reservation systems</li>
+              <li>Engineered MIRRA fashion e-commerce storefront with high-performance worker architecture</li>
+              <li>Executed E-Commerce Cart Abandonment business analysis on 90,000+ sessions to optimize user journeys</li>
+            </ul>
           </motion.div>
         </motion.div>
 
@@ -215,63 +220,78 @@ const About = () => {
 
           <div className="education-grid">
             {/* Featured University Card */}
-            <motion.div variants={itemVariants} className="timeline-card featured-education-card">
-              <div className="timeline-icon has-logo">
-                <img src={sliitLogo} alt="SLIIT Logo" />
-              </div>
-              <div className="timeline-content">
-                <div className="card-top-row">
-                  <span className="timeline-date">2022 - Present</span>
-                  <span className="education-level-badge">Undergraduate Degree</span>
+            <motion.div variants={itemVariants} className="education-card featured-education-card">
+              <div className="institution-header">
+                <div className="institution-logo-wrap featured-logo-wrap">
+                  <img src={sliitLogo} alt="SLIIT Crest" className="institution-logo" />
                 </div>
-                <h4>Sri Lanka Institute of Information Technology (SLIIT)</h4>
-                <p className="education-degree">BSc (Hons) in Information Technology, Specializing in Information Systems Engineering</p>
-                <ul className="timeline-details">
-                  <li>Year 3, Semester 1 | Expected Graduation: 2028</li>
-                  <li>Specializing in Systems Analysis, Enterprise Architecture, and Database Design</li>
-                  <li>Focusing on translating complex business problems into structured functional requirements and practical software</li>
-                </ul>
+                <div className="institution-info">
+                  <div className="card-top-row">
+                    <span className="timeline-date">2022 - Present</span>
+                    <span className="education-level-badge">Undergraduate Degree</span>
+                  </div>
+                  <h4 className="institution-name">Sri Lanka Institute of Information Technology (SLIIT)</h4>
+                  <p className="education-degree">BSc (Hons) in Information Technology, Specializing in Information Systems Engineering</p>
+                </div>
               </div>
+
+              <div className="institution-divider"></div>
+
+              <ul className="timeline-details">
+                <li>Year 3, Semester 1 | Expected Graduation: 2028</li>
+                <li>Specializing in Systems Analysis, Enterprise Architecture, and Database Design</li>
+                <li>Focusing on translating complex business problems into structured functional requirements and scalable software</li>
+              </ul>
             </motion.div>
 
             {/* Secondary Education Grid: A/L & O/L side-by-side */}
             <div className="secondary-education-grid">
               {/* A/L Card */}
-              <motion.div variants={itemVariants} className="timeline-card secondary-card">
-                <div className="timeline-icon has-logo">
-                  <img src={dsLogo} alt="D. S. Senanayake Central College Logo" />
-                </div>
-                <div className="timeline-content">
-                  <div className="card-top-row">
-                    <span className="timeline-date">G.C.E. Advanced Level</span>
-                    <span className="education-level-badge">A/L</span>
+              <motion.div variants={itemVariants} className="education-card secondary-card">
+                <div className="institution-header">
+                  <div className="institution-logo-wrap">
+                    <img src={dsLogo} alt="D. S. Senanayake Central College Emblem" className="institution-logo" />
                   </div>
-                  <h4>D. S. Senanayake Central College, Mirigama</h4>
-                  <p className="education-degree">Secondary Education – G.C.E. Advanced Level (A/L)</p>
-                  <ul className="timeline-details">
-                    <li>Completed G.C.E. Advanced Level (A/L) Examination</li>
-                    <li>Active participation in school societies, academic activities, and extracurriculars</li>
-                  </ul>
+                  <div className="institution-info">
+                    <div className="card-top-row">
+                      <span className="timeline-date">G.C.E. A/L</span>
+                      <span className="education-level-badge">Advanced Level</span>
+                    </div>
+                    <h4 className="institution-name">D. S. Senanayake Central College, Mirigama</h4>
+                    <p className="education-degree">Secondary Education – G.C.E. Advanced Level (A/L)</p>
+                  </div>
                 </div>
+
+                <div className="institution-divider"></div>
+
+                <ul className="timeline-details">
+                  <li>Completed G.C.E. Advanced Level (A/L) Examination</li>
+                  <li>Active participation in school societies, academic activities, and extracurriculars</li>
+                </ul>
               </motion.div>
 
               {/* O/L Card */}
-              <motion.div variants={itemVariants} className="timeline-card secondary-card">
-                <div className="timeline-icon has-logo">
-                  <img src={wickramashilaLogo} alt="Wickramashila National School Logo" />
-                </div>
-                <div className="timeline-content">
-                  <div className="card-top-row">
-                    <span className="timeline-date">G.C.E. Ordinary Level</span>
-                    <span className="education-level-badge">O/L</span>
+              <motion.div variants={itemVariants} className="education-card secondary-card">
+                <div className="institution-header">
+                  <div className="institution-logo-wrap logo-wrap-crest">
+                    <img src={wickramashilaLogo} alt="Wickramashila National School Emblem" className="institution-logo" />
                   </div>
-                  <h4>Wickramashila National School, Giriulla</h4>
-                  <p className="education-degree">Secondary Education – G.C.E. Ordinary Level (O/L)</p>
-                  <ul className="timeline-details">
-                    <li>Completed G.C.E. Ordinary Level (O/L) Examination</li>
-                    <li>Active participation in school clubs, societies, and sports</li>
-                  </ul>
+                  <div className="institution-info">
+                    <div className="card-top-row">
+                      <span className="timeline-date">G.C.E. O/L</span>
+                      <span className="education-level-badge">Ordinary Level</span>
+                    </div>
+                    <h4 className="institution-name">Wickramashila National School, Giriulla</h4>
+                    <p className="education-degree">Secondary Education – G.C.E. Ordinary Level (O/L)</p>
+                  </div>
                 </div>
+
+                <div className="institution-divider"></div>
+
+                <ul className="timeline-details">
+                  <li>Completed G.C.E. Ordinary Level (O/L) Examination</li>
+                  <li>Active participation in school clubs, societies, and sports</li>
+                </ul>
               </motion.div>
             </div>
           </div>
