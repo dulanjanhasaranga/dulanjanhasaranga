@@ -33,12 +33,6 @@ const Home = () => {
           initial="hidden"
           animate="visible"
         >
-          <motion.div variants={itemVariants} className="badge-wrapper">
-            <span className="badge">
-              <span className="pulse-dot"></span> Available for Work
-            </span>
-          </motion.div>
-          
           <motion.h1 variants={itemVariants} className="hero-title">
             Hi, I'm Dulanjan. <br />
             I build <span className="text-gradient">modern web apps</span>.
