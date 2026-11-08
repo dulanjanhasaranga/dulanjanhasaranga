@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <div className="page-container home-page">
-      <CursorRingField style={{ opacity: 0.28 }} />
+      <CursorRingField />
       
       <div className="container home-container">
         <motion.div 
