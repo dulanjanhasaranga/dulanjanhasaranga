@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Lock, Clock } from 'lucide-react';
+import { Lock, Clock, ExternalLink } from 'lucide-react';
 import './Projects.css';
 
 const projectsData = [
@@ -84,68 +84,92 @@ const Projects = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.1 }}
         >
-          {projectsData.map((project) => {
-            const CardWrapper = project.isPending ? motion.div : motion.a;
-            const cardProps = project.isPending
-              ? {}
-              : {
-                  href: project.link,
-                  target: project.isPrivate ? "_self" : "_blank",
-                  rel: "noopener noreferrer",
-                };
-
-            return (
-              <CardWrapper
-                {...cardProps}
-                key={project.id}
-                className={`project-card${project.isPending ? ' project-card--pending' : ''}`}
-                variants={itemVariants}
-              >
-                {project.isDataViz ? (
-                  <div className="project-data-header">
-                    <div className="data-bars">
-                      <div className="data-bar" style={{ height: '100%' }}></div>
-                      <div className="data-bar" style={{ height: '50%' }}></div>
-                      <div className="data-bar" style={{ height: '15%' }}></div>
-                      <div className="data-bar" style={{ height: '5%' }}></div>
-                    </div>
-                    <span className="mono text-muted" style={{ fontSize: '0.8rem', marginTop: '1rem', zIndex: 2 }}>Funnel Drop-off Analysis</span>
-                  </div>
-                ) : (
+          {projectsData.map((project) => (
+            <motion.div
+              key={project.id}
+              className="project-card-wrapper"
+              variants={itemVariants}
+            >
+              {project.isPending ? (
+                <div className="project-card project-card--pending">
                   <div className="project-image">
                     <img src={project.image} alt={project.title} />
-                    {project.isPending && (
-                      <div className="project-image-overlay">
-                        <span className="coming-soon-label">Coming Soon</span>
-                      </div>
-                    )}
+                    <div className="project-image-overlay">
+                      <span className="coming-soon-label">Coming Soon</span>
+                    </div>
                   </div>
-                )}
-                
-                <div className="project-content">
-                  <div className="project-header">
-                    <h3>{project.title}</h3>
-                    {project.isPrivate && (
-                      <span className="tag tag-private">
-                        <Lock size={11} /> Private
-                      </span>
-                    )}
-                    {project.isPending && (
+                  
+                  <div className="project-content">
+                    <div className="project-header">
+                      <h3>{project.title}</h3>
                       <span className="tag tag-pending">
                         <Clock size={11} /> Pending
                       </span>
-                    )}
+                    </div>
+                    <p>{project.description}</p>
+                    <div className="project-tags">
+                      {project.tags.map(tag => (
+                        <span key={tag} className="tag">{tag}</span>
+                      ))}
+                    </div>
                   </div>
-                  <p>{project.description}</p>
-                  <div className="project-tags">
-                    {project.tags.map(tag => (
-                      <span key={tag} className="tag">{tag}</span>
-                    ))}
+
+                  <div className="project-card-footer">
+                    <span className="project-action-btn project-action-btn--pending">
+                      <Clock size={13} /> Coming Soon
+                    </span>
                   </div>
                 </div>
-              </CardWrapper>
-            );
-          })}
+              ) : (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-card"
+                  aria-label={`Open ${project.title} on GitHub`}
+                >
+                  {project.isDataViz ? (
+                    <div className="project-data-header">
+                      <div className="data-bars">
+                        <div className="data-bar" style={{ height: '100%' }}></div>
+                        <div className="data-bar" style={{ height: '50%' }}></div>
+                        <div className="data-bar" style={{ height: '15%' }}></div>
+                        <div className="data-bar" style={{ height: '5%' }}></div>
+                      </div>
+                      <span className="mono text-muted" style={{ fontSize: '0.8rem', marginTop: '1rem', zIndex: 2 }}>Funnel Drop-off Analysis</span>
+                    </div>
+                  ) : (
+                    <div className="project-image">
+                      <img src={project.image} alt={project.title} />
+                    </div>
+                  )}
+                  
+                  <div className="project-content">
+                    <div className="project-header">
+                      <h3>{project.title}</h3>
+                      {project.isPrivate && (
+                        <span className="tag tag-private">
+                          <Lock size={11} /> Private
+                        </span>
+                      )}
+                    </div>
+                    <p>{project.description}</p>
+                    <div className="project-tags">
+                      {project.tags.map(tag => (
+                        <span key={tag} className="tag">{tag}</span>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="project-card-footer">
+                    <span className="project-action-btn">
+                      View Project <ExternalLink size={14} className="action-icon" />
+                    </span>
+                  </div>
+                </a>
+              )}
+            </motion.div>
+          ))}
         </motion.div>
       </div>
     </motion.div>

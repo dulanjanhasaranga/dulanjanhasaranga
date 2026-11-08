@@ -25,6 +25,25 @@ const Navbar = () => {
     }
   };
 
+  const handleNavClick = (e, targetId) => {
+    e.preventDefault();
+    setIsOpen(false);
+
+    if (targetId === '#home') {
+      if (window.scrollY > 0) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+      return;
+    }
+
+    const targetElement = document.querySelector(targetId);
+    if (targetElement) {
+      setTimeout(() => {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }, 80);
+    }
+  };
+
   return (
     <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
@@ -35,9 +54,9 @@ const Navbar = () => {
         
         <nav className={`nav-links ${isOpen ? 'active' : ''}`}>
           <a href="#home" className="nav-link" onClick={scrollToTop}>Home</a>
-          <a href="#about" className="nav-link" onClick={() => setIsOpen(false)}>About</a>
-          <a href="#projects" className="nav-link" onClick={() => setIsOpen(false)}>Projects</a>
-          <a href="#contact" className="nav-link" onClick={() => setIsOpen(false)}>Contact</a>
+          <a href="#about" className="nav-link" onClick={(e) => handleNavClick(e, '#about')}>About</a>
+          <a href="#projects" className="nav-link" onClick={(e) => handleNavClick(e, '#projects')}>Projects</a>
+          <a href="#contact" className="nav-link" onClick={(e) => handleNavClick(e, '#contact')}>Contact</a>
         </nav>
 
         <button className="mobile-toggle" onClick={toggleMenu} aria-label="Toggle Menu">

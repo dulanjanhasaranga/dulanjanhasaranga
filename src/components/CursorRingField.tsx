@@ -1246,3 +1246,4 @@ const __originkitPresetProps = {
 export default function CursorRingField(props: Record<string, unknown>) {
   return <__OriginkitBase_CursorRingField {...(__originkitPresetProps as Record<string, unknown>)} {...props} />;
 }
+
