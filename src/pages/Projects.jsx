@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Lock, Clock, ExternalLink } from 'lucide-react';
+import { Lock, Clock } from 'lucide-react';
 import './Projects.css';
 
 const projectsData = [
@@ -91,7 +91,7 @@ const Projects = () => {
               variants={itemVariants}
             >
               {project.isPending ? (
-                <div className="project-card project-card--pending">
+                <div className={`project-card project-card--pending`}>
                   <div className="project-image">
                     <img src={project.image} alt={project.title} />
                     <div className="project-image-overlay">
@@ -113,12 +113,6 @@ const Projects = () => {
                       ))}
                     </div>
                   </div>
-
-                  <div className="project-card-footer">
-                    <span className="project-action-btn project-action-btn--pending">
-                      <Clock size={13} /> Coming Soon
-                    </span>
-                  </div>
                 </div>
               ) : (
                 <a
@@ -126,7 +120,6 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="project-card"
-                  aria-label={`Open ${project.title} on GitHub`}
                 >
                   {project.isDataViz ? (
                     <div className="project-data-header">
@@ -159,12 +152,6 @@ const Projects = () => {
                         <span key={tag} className="tag">{tag}</span>
                       ))}
                     </div>
-                  </div>
-
-                  <div className="project-card-footer">
-                    <span className="project-action-btn">
-                      View Project <ExternalLink size={14} className="action-icon" />
-                    </span>
                   </div>
                 </a>
               )}
