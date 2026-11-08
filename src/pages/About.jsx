@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { GraduationCap, Briefcase, Award, Code2 } from 'lucide-react';
+import { GraduationCap, Briefcase, Award, Code2, School } from 'lucide-react';
 import './About.css';
 
 const About = () => {
@@ -54,7 +54,20 @@ const About = () => {
             <motion.div variants={itemVariants} className="skills-container">
               <h3 className="section-heading"><Code2 className="heading-icon" size={20} /> Expertise</h3>
               <div className="skills-tags">
-                {['JavaScript (ES6+)', 'React.js', 'Node.js', 'Express', 'MongoDB', 'MySQL', 'Data Analytics', 'Business Analysis'].map(skill => (
+                {[
+                  'Business Analysis',
+                  'Systems Analysis',
+                  'BRD & SRS Documentation',
+                  'UML & Process Mapping',
+                  'Agile / Scrum',
+                  'SQL & MySQL',
+                  'React.js',
+                  'Java & Spring Boot',
+                  'Node.js & Express',
+                  'MongoDB',
+                  'Data Analytics',
+                  'Figma & Postman'
+                ].map(skill => (
                   <span key={skill} className="skill-tag">{skill}</span>
                 ))}
               </div>
@@ -70,17 +83,36 @@ const About = () => {
           >
             <h3 className="section-heading"><GraduationCap className="heading-icon" size={20} /> Education</h3>
             
+            {/* University Education */}
             <motion.div variants={itemVariants} className="timeline-card">
               <div className="timeline-icon">
                 <GraduationCap size={20} />
               </div>
               <div className="timeline-content">
-                <span className="timeline-date">Current</span>
+                <span className="timeline-date">2022 - Present</span>
                 <h4>Sri Lanka Institute of Information Technology (SLIIT)</h4>
-                <p>BSc (Hons) in Information Systems Engineering</p>
+                <p>BSc (Hons) in Information Technology, Specializing in Information Systems Engineering</p>
                 <ul className="timeline-details">
-                  <li>Specializing in full-stack web architectures</li>
-                  <li>Focused on data analytics and system design</li>
+                  <li>Year 3, Semester 1 | Expected Graduation: 2028</li>
+                  <li>Specializing in Systems Analysis, Enterprise Architecture, and Database Design</li>
+                  <li>Focusing on translating business problems into structured functional requirements and practical software</li>
+                </ul>
+              </div>
+            </motion.div>
+
+            {/* School Education */}
+            <motion.div variants={itemVariants} className="timeline-card">
+              <div className="timeline-icon">
+                <School size={20} />
+              </div>
+              <div className="timeline-content">
+                <span className="timeline-date">Secondary Education</span>
+                <h4>Secondary School & College</h4>
+                <p>G.C.E. Advanced Level (A/L) & Ordinary Level (O/L)</p>
+                <ul className="timeline-details">
+                  <li>G.C.E. Advanced Level (A/L) Examination</li>
+                  <li>G.C.E. Ordinary Level (O/L) Examination</li>
+                  <li>Active participation in school societies, academic activities, and sports</li>
                 </ul>
               </div>
             </motion.div>
@@ -96,8 +128,9 @@ const About = () => {
                 <h4>Independent Developer & Analyst</h4>
                 <p>Freelance & Academic Projects</p>
                 <ul className="timeline-details">
-                  <li>Developed EduScope-Connect platform</li>
-                  <li>Engineered comprehensive Hotel Reservation Systems</li>
+                  <li>Developed EduScope-Connect and Hotel Reservation systems</li>
+                  <li>Engineered Prime Medical Healthcare management system</li>
+                  <li>Executed E-Commerce Cart Abandonment business analysis on 90k+ sessions</li>
                 </ul>
               </div>
             </motion.div>
