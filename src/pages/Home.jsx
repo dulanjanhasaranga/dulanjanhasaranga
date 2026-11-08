@@ -1,6 +1,6 @@
 import { ArrowRight, Globe, User, Mail, Code, Database, Layout, FileText, Briefcase, LineChart } from 'lucide-react';
 import { motion } from 'framer-motion';
-import profilePhoto from '../assets/profile.jpg';
+import profilePhoto from '../assets/profile.webp';
 import './Home.css';
 import CursorRingField from '../components/CursorRingField';
 
@@ -80,12 +80,7 @@ const Home = () => {
           </motion.div>
         </motion.div>
         
-        <motion.div 
-          className="hero-visual"
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.7, delay: 0.4 }}
-        >
+        <div className="hero-visual">
           <div className="visual-circle animate-pulse-slow"></div>
           <div className="visual-circle-2"></div>
           
@@ -94,9 +89,18 @@ const Home = () => {
             whileHover={{ y: -5, scale: 1.02 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <img src={profilePhoto} alt="Dulanjan" className="profile-image" />
+            <img 
+              src={profilePhoto} 
+              alt="Dulanjan" 
+              className="profile-image" 
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+              width="380"
+              height="507"
+            />
           </motion.div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

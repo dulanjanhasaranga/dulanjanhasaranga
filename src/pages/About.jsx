@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { GraduationCap, Briefcase, Award, Code2 } from 'lucide-react';
 import sliitLogo from '../assets/sliit-logo.webp';
 import dsLogo from '../assets/ds-senanayake-logo.webp';
-import wickramashilaLogo from '../assets/wickramashila-logo.png';
+import wickramashilaLogo from '../assets/wickramashila-logo.webp';
 import './About.css';
 
 const About = () => {
